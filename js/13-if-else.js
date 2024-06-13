@@ -22,27 +22,36 @@ let student1 = {
     hasMetAttendence: false
   };
 
-  
+
 
   function checkeligibility(student){
-    let prefix="Mr.";
-    if (student.gender=="female"){
-      prefix="Mrs.";
-    }
-  
-    if (student.paidStatus ) {
-            console.log(student.name, "can give exam.")
-        }
-        else if(student.hasScholorship == true){
-            console.log( student.name, " can give exam.")
-        }
-        else {
-            console.log( student.name, " can't give exam.")
-        }
-    }
 
+  }
+  function checkeligibility(student){
+    if (student.paidStatus || student.hasScholorship )  
+      if(student.hasMetAttendence){
+        console.log(student.name,"can give exam")
+        return
+      }
+    }
+console.log(student.name, "can't give exam")
+
+    /* OR */
+// print fron 1 to 10 // 
   checkeligibility(student1)
   checkeligibility(student2)
   checkeligibility(student3)
+
+
+
+
+  function checkeligibility(){
+   if (true && student.hasMetAttendence)
+    {
+        console.log(student.name,"can give exam")
+        return
+      }
+  }
+
         
 

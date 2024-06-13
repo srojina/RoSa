@@ -1,85 +1,82 @@
-console.log("js connected")
+console.log("js connected");
 
-/* variable*/ 
-greeting="hi"
-console.log("greeting",greeting)
+/* variable*/
+greeting = "hi";
+console.log("greeting", greeting);
 
-console.log("hi Ram")
-console.log("hi Sita")
-console.log("hi Hari")
+console.log("hi Ram");
+console.log("hi Sita");
+console.log("hi Hari");
 
-
-age=10
+age = 10;
 // person name="ram"// wrong
 // personname="ram"// wrong //difficult to read.
-person_name="Ram"    //snake_case
-personName="Sita"   //camelCase
+person_name = "Ram"; //snake_case
+personName = "Sita"; //camelCase
 
-
-// We ca use 
+// We ca use
 // 1position="static"//  wrong
-position1="static"
-position2="relative"
+position1 = "static";
+position2 = "relative";
 
-console.log(person_name,"age is",age)
-console.log(personName,"age is",age)
-
+console.log(person_name, "age is", age);
+console.log(personName, "age is", age);
 
 // name="ram"// wrong
-fullName="Ram"
+fullName = "Ram";
 // class=10  //wrong
-grade=10
-isActive=false
+grade = 10;
+isActive = false;
 
-fullName="Hari Bdr."
-isActive=true
+fullName = "Hari Bdr.";
+isActive = true;
 
-console.log(fullName)
-console.log(isActive)
+console.log(fullName);
+console.log(isActive);
 
 /* let vs cost */
 
-var shape="circle"
-var shape="square"
-var shape="oval"
-console.log(shape)
+var shape = "circle";
+var shape = "square";
+var shape = "oval";
+console.log(shape);
 
-let color="red"
-console.log(color)
+let color = "red";
+console.log(color);
 // let color="red" //cannot redeclare varaiable already create using let keyword
-color="blue"
-color="black"
+color = "blue";
+color = "black";
 
 /* decleration vs initilization */
-let size //decleration
-size="small"  //initilization
-size="medium"  // re-initilization
-size="large"   //re-initilization
+let size; //decleration
+size = "small"; //initilization
+size = "medium"; // re-initilization
+size = "large"; //re-initilization
 
-console.log(size)
+console.log(size);
 
-let price = 1000
-price = 500
-console.log(price)
+let price = 1000;
+price = 500;
+console.log(price);
 
-const PI = 3.14 // surumia initilaized garna parxa const ma
+const PI = 3.14; // surumia initilaized garna parxa const ma
 // PI = 3.14 // wrong
-console.log(PI)
+console.log(PI);
 
-const ROLE ="customer" //suppose fetched from database
-ROLE = "admin"
-console.log(ROLE)
+const ROLE = "customer"; //suppose fetched from database
+ROLE = "admin";
+console.log(ROLE);
 
-let apiData =""
-apiData = "products data"
-console.log(apiData)
+let apiData = "";
+apiData = "products data";
+console.log(apiData);
 
 /* Data Type */
 
-let userName ="Ram"
-userName='Ram'
-let userAge ="22"
-let userActiveStatus="true"
+let userName = "Ram";
+userName = "Ram";
+let userAge = "22";
+let userActiveStatus = "true";
 
 /*
 1.text - string
@@ -91,18 +88,14 @@ let userActiveStatus="true"
 5.null // empty values
 */
 
-let count //undefined datatypes //
-console.log("count",count)
+let count; //undefined datatypes //
+console.log("count", count);
 
-let userData = null
+let userData = null;
 /* on button click, fetch users data 
 userData = "user data"
 */
 
-let pricePrice = 1000
-pricePrice = "One thouusand" // yoh in lekha painxa //
-console.log(price)
-
-
-
-
+let pricePrice = 1000;
+pricePrice = "One thouusand"; // yoh in lekha painxa //
+console.log(price);
